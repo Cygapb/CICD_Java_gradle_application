@@ -3,6 +3,7 @@ pipeline{
     environment{
         VERSION = "${env.BUILD_ID}"
     }
+/*
     stages{
         stage("sonar quality check"){
             agent {
@@ -27,6 +28,7 @@ pipeline{
                 }  
             }
         }
+*/
         stage("docker build & docker push"){
             steps{
                 script{
