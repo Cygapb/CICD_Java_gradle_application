@@ -10,6 +10,7 @@ pipeline{
                     image 'openjdk:11'
                 }
             }
+/*
             steps{
                 script{
                     withSonarQubeEnv(credentialsId: 'sonar-token') {
@@ -26,6 +27,7 @@ pipeline{
 
                 }  
             }
+*/
         }
         stage("docker build & docker push"){
             steps{
