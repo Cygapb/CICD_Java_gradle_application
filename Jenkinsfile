@@ -25,9 +25,9 @@ pipeline{
                       }
                     }
 
-                }  
-            }
+                }
 */
+            }
         }
         stage("docker build & docker push"){
             steps{
