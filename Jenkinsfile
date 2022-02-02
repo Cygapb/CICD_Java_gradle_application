@@ -45,7 +45,7 @@ pipeline{
                 }
             }
         }
-*/
+/*
         stage('manual approval'){
             steps{
                 script{
