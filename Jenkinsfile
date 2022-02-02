@@ -45,7 +45,7 @@ pipeline{
                 }
             }
         }
-
+*/
         stage('manual approval'){
             steps{
                 script{
@@ -56,7 +56,7 @@ pipeline{
                 }
             }
         }
-
+*/
         stage('Deploying application on k8s cluster') {
             steps {
                script{
